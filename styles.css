@@ -1,3 +1,18 @@
 *{
     box-sizing: border-box;
 }
+
+img{
+    width: 100px;
+}
+
+figcaption{
+    border: 1px solid black;
+    width: 300px;
+}
+
+.Abdomen, .Ankles, .Biceps, .Calves, .Chest, .Feet, .Fingers, .Forearms, .Glutes, .Groin, .Hamstrings, .Hands,
+.Hips, .ITBand, .Knees, .Lats, .LowerBack, .Neck, .Obliques, .Psoas, .Quadriceps, .Shins, .Shoulders, .Spine, .Toes,
+.Triceps, .UpperBack, .Wrists{
+    display: flex;
+}

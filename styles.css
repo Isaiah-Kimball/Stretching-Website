@@ -65,16 +65,70 @@ header h1{
 }
 
 img{
-    width: 100px;
+    width: 300px;
+    height: 200px;
+    border: 12px solid #3882F6;
+    border-radius: 10%;
+    margin: 0;
+    padding: 0;
 }
 
 figcaption{
-    border: 1px solid black;
+    border: 6px solid black;
     width: 300px;
+    height: 25rem;
+    margin: 0.5em 1em 1em 0;
+    padding:12px;
+    text-wrap: wrap;
+}
+
+figcaption p {
+    margin: 0;
+    padding: 0.5em;
+}
+
+.areaSelectors{
+    color: white;
+    background-color: #1F2937;
+    padding: 12px;
+}
+
+.areaSelectors h1{
+    margin: 0;
+    padding: 0;
+}
+
+.areaSelectors label{
+    padding-right: 1em;
 }
 
 .Abdomen, .Ankles, .Biceps, .Calves, .Chest, .Feet, .Fingers, .Forearms, .Glutes, .Groin, .Hamstrings, .Hands,
 .Hips, .ITBand, .Knees, .Lats, .LowerBack, .Neck, .Obliques, .Psoas, .Quadriceps, .Shins, .Shoulders, .Spine, .Toes,
 .Triceps, .UpperBack, .Wrists{
     display: flex;
+    flex-direction: row;
+}
+
+.stretch{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.stretch h1{
+    margin:0;
+    padding:0;
+    width: 300px;
+    text-align: center;
+}
+
+#stretch-regions{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+}
+
+/*Had issues when disabling regions without using a class*/
+.hidden{
+    display: none;
 }

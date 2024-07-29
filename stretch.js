@@ -1,5 +1,5 @@
-const create = document.getElementById("create");
+const create = document.querySelectorAll("#create");
 
-create.addEventListener("click", ()=>{
-    alert("Accounts can not be made yet, stay tuned!");
-});
+for (const button of create){
+    button.addEventListener("click", ()=>{alert("Account creation not finished yet, stay tuned!")})
+}

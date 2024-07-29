@@ -2,9 +2,27 @@
     box-sizing: border-box;
 }
 
-body{
+body {
+    font-family: 'Merriweather', serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
     margin: 0;
-    padding:0;
+    padding: 0;
+    color: #333;
+    
+}
+
+body > :not(header){
+    padding: 0 6em;
+    max-width: 80%;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+p{
+    font-size: 1.2rem;
 }
 
 header{
@@ -22,6 +40,17 @@ header{
 
 header nav{
     padding-top: 0.5em;
+}
+
+header #create{
+    background: none;
+    border:none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font: inherit;
+    padding-right: 1em;
+    cursor:pointer;
 }
 
 header a{

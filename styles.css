@@ -36,6 +36,9 @@ header{
     padding-bottom: 1rem;
     font-size: 18px;
     font-weight: bold;
+    /*Need to specify top as well when ur using sticky*/
+    position: sticky;
+    top:0;
 }
 
 header nav{

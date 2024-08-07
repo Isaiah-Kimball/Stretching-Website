@@ -89,80 +89,71 @@
     <!--This section will have all of the different regions to stretch-->
     <!--I'm thinking start with general header, then 3 imgs per section where clicking in img leads to a YouTube link, 
     then figcaption with credit to source name, areas covered, pros and cons (might not include pros and cons)-->
+    <div id = "areaSelectors" class = "areaSelectors">
+        <h1>Select Which Regions to Show or not Show</h1>
+        <label><input type = "checkbox" id = "abdomenBox" onclick = "toggleVisibility('.Abdomen')" checked>Abdomen</label>
+        <label><input type = "checkbox" id = "anklesBox" onclick = "toggleVisibility('.Ankles')" checked>Ankles</label>
+    </div>
+
     <div id = "stretch-regions" class = "stretch-regions">
-        <div id = "areaSelectors" class = "areaSelectors">
-            <h1>Select Which Regions to Show or not Show</h1>
-            <label><input type = "checkbox" id = "abdomenBox" onclick = "toggleVisibility('Abdomen')" checked>Abdomen</label>
-            <label><input type = "checkbox" id = "anklesBox" onclick = "toggleVisibility('Ankles')" checked>Ankles</label>
+        
+        <div id = "Bow-Pose" class = "stretch Abdomen Hips Quadriceps Psoas Chest UpperBack Spine Shoulders">
+            <h1>Bow Pose</h1>
+                <a href = "https://www.youtube.com/watch?v=CZGtSaOvb50&list=PLtM0YoctczKa2-G6HoX-vSFViYiHFdWhC&index=18" target = "_blank"><img id = "BowPose" src = "/images/bow-pose.jpg"></a>
+                <figcaption>
+                    <p><b>Areas Covered:</b> Abdomen, Hips, Quadriceps, Psoas, Chest, Upper Back, Spine, and Shoulders</p>
+                    <p><b>Pros:</b> Covers numerous muscles and is a great stretch for the abdomen and Chest</p>
+                    <p><b>Cons:</b> Requires fair bit of flexibility in abdomen and chest area to due properly</p>
+                </figcaption>
+        </div>
+        <div id = "Camel-Pose" class="stretch Abdomen Chest UpperBack Spine Shoulders Quadriceps Psoas">
+            <h1>Camel Pose</h1>
+                <a href = "https://www.youtube.com/watch?v=_NNnowkcIqU&list=PLtM0YoctczKa2-G6HoX-vSFViYiHFdWhC&index=14" target = "_blank"><img id = "CamelPose" src = "/images/camel-pose.jpg"></a>
+                <figcaption>
+                    <p><b>Areas Covered:</b> Abdomen, Chest, Upper Back, Spine, Shoulders, Quadriceps, Psoas</p>
+                    <p>
+                        <b>Pros:</b> Covers numerous areas, even if you can't go as far as the picture, you can still properly do this
+                        stretch
+                    </p>
+                    <p><b>Cons:</b> May cause back pain if held for too long</p>
+                </figcaption>
+        </div>
+        <div id = "Upward-Dog" class = "stretch Abdomen Chest Spine Wrists Psoas">
+            <h1>Upward Dog</h1>
+                <a href = "https://www.youtube.com/watch?v=pVmOOluGAv8" target = "_blank"><img id = "UpwardDog" src = "/images/upward-dog.jpg"></a>
+                <figcaption>
+                    <p><b>Areas Covered:</b> Abdomen, Chest, Spine, Wrists, Psoas</p>
+                    <p><b>Pros:</b> Extremely Simple and beginner friendly</p>
+                    <p><b>Cons:</b> May put a bit too much strain on your wrists</p>
+                </figcaption>
         </div>
         
-        <div id = "Abdomen">
-            <h1 id = "Abdomen">Abdomen Stretches</h1>
-            <div class = "Abdomen">
-                <div class = "stretch">
-                    <h1>Bow Pose</h1>
-                    <a href = "https://www.youtube.com/watch?v=CZGtSaOvb50&list=PLtM0YoctczKa2-G6HoX-vSFViYiHFdWhC&index=18" target = "_blank"><img id = "BowPose" src = "/images/bow-pose.jpg"></a>
-                    <figcaption>
-                        <p><b>Areas Covered:</b> Abdomen, Hips, Quadriceps, Psoas, Chest, Upper Back, Spine, and Shoulders</p>
-                        <p><b>Pros:</b> Covers numerous muscles and is a great stretch for the abdomen and Chest</p>
-                        <p><b>Cons:</b> Requires fair bit of flexibility in abdomen and chest area to due properly</p>
-                    </figcaption>
-                </div>
-                <div class="stretch">
-                    <h1>Camel Pose</h1>
-                    <a href = "https://www.youtube.com/watch?v=_NNnowkcIqU&list=PLtM0YoctczKa2-G6HoX-vSFViYiHFdWhC&index=14" target = "_blank"><img id = "CamelPose" src = "/images/camel-pose.jpg"></a>
-                    <figcaption>
-                        <p><b>Areas Covered:</b> Abdomen, Chest, Upper Back, Spine, Shoulders, Quadriceps, Psoas</p>
-                        <p>
-                            <b>Pros:</b> Covers numerous areas, even if you can't go as far as the picture, you can still properly do this
-                            stretch
-                        </p>
-                        <p><b>Cons:</b> May cause back pain if held for too long</p>
-                    </figcaption>
-                </div>
-                <div class = "stretch">
-                    <h1>Upward Dog</h1>
-                    <a href = "https://www.youtube.com/watch?v=pVmOOluGAv8" target = "_blank"><img id = "UpwardDog" src = "/images/upward-dog.jpg"></a>
-                    <figcaption>
-                        <p><b>Areas Covered:</b> Abdomen, Chest, Spine, Wrists, Psoas</p>
-                        <p><b>Pros:</b> Extremely Simple and beginner friendly</p>
-                        <p><b>Cons:</b> May put a bit too much strain on your wrists</p>
-                    </figcaption>
-                </div>
-            </div>
+        <div id = "Child's-Pose" class = "stretch Ankles Feet Shins Hips Shoulders LowerBack">
+            <h1>Child's Pose</h1>
+                <a href = "https://www.youtube.com/watch?v=nMp3MlTz9fA" target = "_blank"><img id = "Child'sPose" src = "/images/Child's-pose.jpg"></a>
+                <figcaption>
+                    <p><b>Areas Covered:</b> Ankles, Feet, Shins, Hips, Shoulders, and Lower Back</p>
+                    <p><b>Pros:</b> Beginner friendly, multiple regions stretched</p>
+                    <p><b>Cons:</b> Doesn't stretch as much for advanced stretchers</p>
+                </figcaption>
         </div>
-        
-        <div id = "Ankles">
-            <h1>Ankles</h1>
-            <div class = "Ankles">
-                <div class = "stretch">
-                    <h1>Child's Pose</h1>
-                    <a href = "https://www.youtube.com/watch?v=nMp3MlTz9fA" target = "_blank"><img id = "Child'sPose" src = "/images/Child's-pose.jpg"></a>
-                    <figcaption>
-                        <p><b>Areas Covered:</b> Ankles, Feet, Shins, Hips, Shoulders, and Lower Back</p>
-                        <p><b>Pros:</b> Beginner friendly, multiple regions stretched</p>
-                        <p><b>Cons:</b> Doesn't stretch as much for advanced stretchers</p>
-                    </figcaption>
-                </div>
-                <div class = "stretch">
-                    <h1>Hero Pose</h1>
-                    <a href = "https://www.youtube.com/watch?v=ncYm6eqa1NA" target = "_blank"><img id = "HeroPose" src = "/images/Hero-Pose.jpg"></a>
-                    <figcaption>
-                        <p><b>Areas Covered:</b> Ankles, Feet, Shins, Knees, Quadriceps</p>
-                        <p><b>Pros:</b> Can be easily pushed further to get a better stretch, multiple regiosn covered</p>
-                        <p><b>Cons:</b> Can very easily pull your ankle muscles if you go too far (I did once)</p>
-                    </figcaption>
-                </div>
-                <div class = "stretch">
-                    <h1>Quad Stretch</h1>
-                    <a href = "https://www.youtube.com/watch?v=Ql3ZxIgLl4U"><img id = "LyingQuadStretch" src = "/images/Quad-Stretch.jpg"></a>
-                    <figcaption>
-                        <p><b>Areas Covered:</b> Ankles, Hips, Shins, Knees, Quadriceps</p>
-                        <p><b>Pros:</b> Beginner Friendly, can be easily varied for deeper stretching</p>
-                        <p><b>Cons:</b> Deeper stretching may require resistance band</p>
-                    </figcaption>
-                </div>
-            </div>
+        <div id = "Hero-Pose" class = "stretch Ankles Feet Shins Knees Quadriceps">
+            <h1>Hero Pose</h1>
+                <a href = "https://www.youtube.com/watch?v=ncYm6eqa1NA" target = "_blank"><img id = "HeroPose" src = "/images/Hero-Pose.jpg"></a>
+                <figcaption>
+                    <p><b>Areas Covered:</b> Ankles, Feet, Shins, Knees, Quadriceps</p>
+                    <p><b>Pros:</b> Can be easily pushed further to get a better stretch, multiple regiosn covered</p>
+                    <p><b>Cons:</b> Can very easily pull your ankle muscles if you go too far (I did once)</p>
+                </figcaption>
+        </div>
+        <div id = "Quad-Stretch" class = "stretch Ankles Hips Shins Knees Quadriceps">
+            <h1>Quad Stretch</h1>
+                <a href = "https://www.youtube.com/watch?v=Ql3ZxIgLl4U"><img id = "LyingQuadStretch" src = "/images/Quad-Stretch.jpg"></a>
+                <figcaption>
+                    <p><b>Areas Covered:</b> Ankles, Hips, Shins, Knees, Quadriceps</p>
+                    <p><b>Pros:</b> Beginner Friendly, can be easily varied for deeper stretching</p>
+                    <p><b>Cons:</b> Deeper stretching may require resistance band</p>
+                </figcaption>
         </div>
         <div id = "Biceps" class = "Biceps">
             

@@ -93,7 +93,11 @@ figcaption p {
 .areaSelectors{
     color: white;
     background-color: #1F2937;
-    padding: 12px;
+    max-width: 66%;
+    margin-right: 16em;
+    margin-left: 6em;
+    padding-bottom: 1em;
+    border-radius: 10px;
 }
 
 .areaSelectors h1{
@@ -103,6 +107,7 @@ figcaption p {
 
 .areaSelectors label{
     padding-right: 1em;
+    padding-bottom: 1em;
 }
 
 .Abdomen, .Ankles, .Biceps, .Calves, .Chest, .Feet, .Fingers, .Forearms, .Glutes, .Groin, .Hamstrings, .Hands,
@@ -126,8 +131,8 @@ figcaption p {
 }
 
 #stretch-regions{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     margin-bottom: 2em;
 }
 

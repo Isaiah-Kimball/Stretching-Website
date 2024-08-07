@@ -89,14 +89,43 @@
     <!--This section will have all of the different regions to stretch-->
     <!--I'm thinking start with general header, then 3 imgs per section where clicking in img leads to a YouTube link, 
     then figcaption with credit to source name, areas covered, pros and cons (might not include pros and cons)-->
-    <div id = "areaSelectors" class = "areaSelectors">
+    <!--Maybe make an image that highlights which areas are selected-->
+    <div class = "select">
         <h1>Select Which Regions to Show or not Show</h1>
-        <label><input type = "checkbox" id = "abdomenBox" onclick = "toggleVisibility('.Abdomen')" checked>Abdomen</label>
-        <label><input type = "checkbox" id = "anklesBox" onclick = "toggleVisibility('.Ankles')" checked>Ankles</label>
+        <!--Fix this! This design should be updated at some point!-->
+        <div id = "areaSelectors" class = "areaSelectors">
+            <label><input type = "checkbox" id = "abdomenBox" onclick = "toggleVisibility('.Abdomen')" checked>Abdomen</label>
+            <label><input type = "checkbox" id = "anklesBox" onclick = "toggleVisibility('.Ankles')" checked>Ankles</label>
+            <label><input type = "checkbox" id = "bicepsBox" onclick = "toggleVisibility('.Biceps')" checked>Biceps</label>
+            <label><input type = "checkbox" id = "calvesBox" onclick = "toggleVisibility('.Calves')" checked>Calves</label>
+            <label><input type = "checkbox" id = "chestBox" onclick = "toggleVisibility('.Chest')" checked>Chest</label>
+            <label><input type = "checkbox" id = "feetBox" onclick = "toggleVisibility('.Feet')" checked>Feet</label>
+            <label><input type = "checkbox" id = "fingersBox" onclick = "toggleVisibility('.Fingers')" checked>Fingers</label>
+            <label><input type = "checkbox" id = "forearmsBox" onclick = "toggleVisibility('.Forearms')" checked>Forearms</label>
+            <label><input type = "checkbox" id = "glutesBox" onclick = "toggleVisibility('.Glutes')" checked>Glutes</label>
+            <label><input type = "checkbox" id = "groinBox" onclick = "toggleVisibility('.Groin')" checked>Groin</label>
+            <label><input type = "checkbox" id = "hamstringsBox" onclick = "toggleVisibility('.Hamstrings')" checked>Hamstrings</label>
+            <label><input type = "checkbox" id = "handsBox" onclick = "toggleVisibility('.Hands')" checked>Hands</label>
+            <label><input type = "checkbox" id = "hipsBox" onclick = "toggleVisibility('.Hips')" checked>Hips</label>
+            <label><input type = "checkbox" id = "itBandBox" onclick = "toggleVisibility('.ITBand')" checked>ITBand</label>
+            <label><input type = "checkbox" id = "kneesBox" onclick = "toggleVisibility('.Knees')" checked>Knees</label>
+            <label><input type = "checkbox" id = "latsBox" onclick = "toggleVisibility('.Lats')" checked>Lats</label>
+            <label><input type = "checkbox" id = "lowerBackBox" onclick = "toggleVisibility('.LowerBack')" checked>LowerBack</label>
+            <label><input type = "checkbox" id = "neckBox" onclick = "toggleVisibility('.Neck')" checked>Neck</label>
+            <label><input type = "checkbox" id = "obliquesBox" onclick = "toggleVisibility('.Obliques')" checked>Obliques</label>
+            <label><input type = "checkbox" id = "psoasBox" onclick = "toggleVisibility('.Psoas')" checked>Psoas</label>
+            <label><input type = "checkbox" id = "quadricepsBox" onclick = "toggleVisibility('.Quadriceps')" checked>Quadriceps</label>
+            <label><input type = "checkbox" id = "shinsBox" onclick = "toggleVisibility('.Shins')" checked>Shins</label>
+            <label><input type = "checkbox" id = "shouldersBox" onclick = "toggleVisibility('.Shoulders')" checked>Shoulders</label>
+            <label><input type = "checkbox" id = "spineBox" onclick = "toggleVisibility('.Spine')" checked>Spine</label>
+            <label><input type = "checkbox" id = "toesBox" onclick = "toggleVisibility('.Toes')" checked>Toes</label>
+            <label><input type = "checkbox" id = "tricepsBox" onclick = "toggleVisibility('.Triceps')" checked>Triceps</label>
+            <label><input type = "checkbox" id = "upperBackBox" onclick = "toggleVisibility('.UpperBack')" checked>UpperBack</label>
+            <label><input type = "checkbox" id = "wristsBox" onclick = "toggleVisibility('.Wrists')" checked>Wrists</label>
+        </div>
     </div>
 
     <div id = "stretch-regions" class = "stretch-regions">
-        
         <div id = "Bow-Pose" class = "stretch Abdomen Hips Quadriceps Psoas Chest UpperBack Spine Shoulders">
             <h1>Bow Pose</h1>
                 <a href = "https://www.youtube.com/watch?v=CZGtSaOvb50&list=PLtM0YoctczKa2-G6HoX-vSFViYiHFdWhC&index=18" target = "_blank"><img id = "BowPose" src = "/images/bow-pose.jpg"></a>
@@ -148,17 +177,68 @@
         </div>
         <div id = "Quad-Stretch" class = "stretch Ankles Hips Shins Knees Quadriceps">
             <h1>Quad Stretch</h1>
-                <a href = "https://www.youtube.com/watch?v=Ql3ZxIgLl4U"><img id = "LyingQuadStretch" src = "/images/Quad-Stretch.jpg"></a>
+                <a href = "https://www.youtube.com/watch?v=Ql3ZxIgLl4U" target = "_blank"><img id = "LyingQuadStretch" src = "/images/Quad-Stretch.jpg"></a>
                 <figcaption>
                     <p><b>Areas Covered:</b> Ankles, Hips, Shins, Knees, Quadriceps</p>
                     <p><b>Pros:</b> Beginner Friendly, can be easily varied for deeper stretching</p>
                     <p><b>Cons:</b> Deeper stretching may require resistance band</p>
                 </figcaption>
         </div>
-        <div id = "Biceps" class = "Biceps">
-            
+        <!--Try to find more bicep stretches-->
+        <div id = "Reverse-Shoulder" class = "stretch Chest Shoulders Biceps">
+            <h1>Reverse Shoulder</h1>
+                <a href = "https://www.youtube.com/watch?v=vlWlwOcmhzU" target = "_blank"><img id = "ReverseShoulder" src = "/images/Reverse-Shoulder.jpg"></a>
+                <figcaption>
+                    <p><b>Areas Covered:</b> Chest, Shoulders, Biceps</p>
+                    <p><b>Pros:</b> Beginner Friendly, can angle your arms higher to get an even deeper/advanced stretch</p>
+                    <p><b>Cons:</b> Little variety in areas covered</p>
+                </figcaption>
         </div>
-        <div id = "Calves" class = "Calves"></div>
+        <div id = "Downward-Dog" class = "stretch Hamstrings Shoulders Calves LowerBack Glutes">
+            <h1>Downward Dog</h1>
+                <a href = "https://www.youtube.com/watch?v=ayQoxw8sRTk" target = "_blank"><img id = "DownwardDog" src = "/images/Downward-Dog.jpg"></a>
+                <figcaption>
+                    <p><b>Areas Covered:</b> Hamstrings, Shoulders, Calves, Lower Back, Glutes</p>
+                    <p><b>Pros:</b> Very simple, can decrease the angle to advance the stretch, lots of areas stretched</p>
+                    <p><b>Cons:</b> Can easily slip your hands if not careful</p>
+                </figcaption>
+        </div>
+        <div id = "Front-Splits" class = "stretch Hamstrings Hips Quadriceps Groin Calves Glutes">
+            <h1>Front Splits</h1>
+                <a href = "https://www.youtube.com/watch?v=KWidF_FMz4E&t=450" target = "_blank"><img id = "FrontSplits" src = "/images/Front-Splits.jpg"></a>
+                <figcaption>
+                    <p><b>Areas Covered:</b> Hamstrings, Hips, Quadriceps, Groin, Calves, Glutes</p>
+                    <p><b>Pros:</b> Always a good full leg stretch, and can basically always be advanced further</p>
+                    <p><b>Cons:</b> Can easily push yourself too far and cause damage, be extremely careful if you're a beginner trying to do the splits</p>
+                </figcaption>
+        </div>
+        <div id = "Toe-Touch" class = "stretch LowerBack Hamstrings Calves Glutes">
+            <h1>Toe Touch</h1>
+                <a href = "https://www.youtube.com/watch?v=Xvr5N_Xf6QM" target = "_blank"><img id = "ToeTouch" src = "/images/Toe-Touch.jpg"></a>
+                <figcaption>
+                    <p><b>Areas Covered:</b> Lower Back, Hamstrings, Calves, Glutes</p>
+                    <p><b>Pros:</b> Really great stretch to see your progression, very simple to do</p>
+                    <p><b>Cons:</b> May get back pain, once you can touch your toes, this stretches mainly your back instead of your legs</p>
+                </figcaption>
+        </div>
+        <div id = "Overhead-Tricep" class = "stretch Shoulders Triceps LowerBack UpperBack Lats Obliques Chest">
+            <h1>Overhead Tricep</h1>
+                <a href = "https://www.youtube.com/watch?v=nbHOmIYMazk" target = "_blank"><img id = "OverheadTricep" src = "/images/Overhead-Tricep.jpg"></a>
+                <figcaption>
+                    <p><b>Areas Covered:</b> Shoulders, Triceps, Lower Back, Upper Back, Lats, Obliques, Chest</p>
+                    <p><b>Pros:</b> Easy to do, can grab your hand with your other arm to do a more advanced stretch, numerous regions covered</p>
+                    <p><b>Cons:</b> All though it stretches numerous areas, triceps is the main part that will be stretched</p>
+                </figcaption>
+        </div>
+        <div id = "Wheel-Pose" class = "stretch Abdomen Hips Quadriceps Psoas Chest Spine">
+            <h1>Wheel Pose</h1>
+                <a href = "https://www.youtube.com/watch?v=4F4lTh09Z5E" target = "_blank"><img id = "WheelPose" src = "/images/Wheel-Pose.jpg"></a>
+                <figcaption>
+                    <p><b>Areas Covered:</b> Abdomen, Hips, Quadriceps, Psoas, Chest, Spine</p>
+                    <p><b>Pros:</b> Can have your upper body flat if unable to do as image, good progression</p>
+                    <p><b>Cons:</b> Takes awhile to get flexibility to do the full stretch</p>
+                </figcaption>
+        </div>
         <div id = "Chest" class = "Chest"></div>
         <div id = "Feet" class = "Feet"></div>
         <div id = "Fingers" class = "Fingers"></div>

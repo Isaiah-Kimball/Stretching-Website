@@ -1,5 +1,5 @@
 # Stretching-Website
-The following website is designed for users to keep track of their stretching progress and also having the ability to learn new stretches based upon regions of the body.
+The following website is designed for users to keep track of their stretching progress and also having the ability to learn new stretches based upon regions of the body. All images used fall under fair use and were used from sources that do not require citation (iStock, pixaBay, pexels, unsplash).
 
 This project is still in development and currently represents basic HTML, CSS, and JS knowledge, but I am still adding and planning on more features (though most require backend data which I am currently learning).
 
